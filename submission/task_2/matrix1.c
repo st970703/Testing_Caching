@@ -106,29 +106,29 @@ int main (int argc, char *argv[])
 
   /* output; examples, adjust for task */
   printf("time: %6.2f secs\n",(t2 - t1));
-  printf("a matrix:\n");
-    for (i = 0; i < N; i++) {
-      for (j = 0; j < N; j++)
-        printf("%6.2f\t", a[i][j]);
-
-      printf("\n");
-    }
-
-    printf("b matrix:\n");
-      for (i = 0; i < N; i++) {
-        for (j = 0; j < N; j++)
-          printf("%6.2f\t", b[i][j]);
-
-        printf("\n");
-      }
-
-  printf("c matrix:\n");
-    for (i = 0; i < N; i++) {
-      for (j = 0; j < N; j++)
-        printf("%6.2f\t", c[i][j]);
-
-      printf("\n");
-    }
+  // printf("a matrix:\n");
+  //   for (i = 0; i < N; i++) {
+  //     for (j = 0; j < N; j++)
+  //       printf("%6.2f\t", a[i][j]);
+  //
+  //     printf("\n");
+  //   }
+  //
+  //   printf("b matrix:\n");
+  //     for (i = 0; i < N; i++) {
+  //       for (j = 0; j < N; j++)
+  //         printf("%6.2f\t", b[i][j]);
+  //
+  //       printf("\n");
+  //     }
+  //
+  // printf("c matrix:\n");
+  //   for (i = 0; i < N; i++) {
+  //     for (j = 0; j < N; j++)
+  //       printf("%6.2f\t", c[i][j]);
+  //
+  //     printf("\n");
+  //   }
 
 
   /* IMPORTANT: also print the result of the code, e.g. the sum,
