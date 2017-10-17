@@ -39,10 +39,6 @@ int main (int argc, char *argv[])
   double **c;
 
   double sum = 0;
-	//double  a[100];
-
-
-
 
   /* parameter parsing task 1 */
   for(int i=1; i<(unsigned)argc; i++) {
@@ -105,7 +101,6 @@ int main (int argc, char *argv[])
           temp[j][i] = b[i][j];
        }
      }
-
 
      for (i = 0; i < N; i++) {
        for (j = 0; j < N; j++) {
