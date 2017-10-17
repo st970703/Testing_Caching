@@ -60,7 +60,7 @@ int main (int argc, char *argv[])
 
   /* allocate memory for arrays; examples, adjust for task */
 	 a = malloc (N * sizeof(int));
-b = malloc (N * sizeof(int));
+   b = malloc (N * sizeof(int));
 
 	 /* initialise arrray elements */
 for (int i = 0; i < N; i++){
