@@ -96,7 +96,7 @@ printf("time per iteration: %f nanoseconds\n", (t2-t1)/(M*N)* 1000000000);
    * otherwise compiler might optimise away the code */
 
   /* free memory; examples, adjust for task */
-  //free(a);
+  free(a);
 
   return 0;
 }

@@ -3,3 +3,18 @@ https://docs.google.com/document/d/1uUVQ2KJpziDZB7WSReQwfG_n5SYRARR3jeVypnpp0Qc/
 https://stackoverflow.com/questions/794632/programmatically-get-the-cache-line-size
 
 block algorithm
+
+st970703@ubuntu:~/Desktop/304_Assignment03/submission/task_2$ ./matrix1 --array_size 1000
+time:  10.45 secs
+
+matrix1
+time:  10.12 secs
+Identify what the problematic access pattern is
+
+matrix2
+time:   4.28 secs
+
+matrix3
+time:   4.05 secs
+Write an implementation based on blocking. Measure and
+document the time it takes in your pdf. Explain your approach briefly.
